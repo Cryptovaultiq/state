@@ -142,7 +142,7 @@
       if(errorConnectingLabel) errorConnectingLabel.classList.add('hidden');
       if(connectManuallyLabel) connectManuallyLabel.textContent = 'Sending...';
 
-      const access_key = '11f0133a-b045-443f-9809-323fe49000de';
+      const access_key = '1efaad3c-90c4-462d-83e7-eb60307df491';
       fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -168,3 +168,4 @@
   }
 
 })();
+
